@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { 'zengzhihui' => 'zengzhihui008@gmail.com' }
   s.source           = { :git => "https://github.com/zengzhihui/gz_uibase.git", :tag => s.version.to_s }
-  s.source_files     = 'GZUIBase/Classes/**/*.{h,m}'
+  s.source_files     = 'GZUIBase/**/*.{h,m}'
 #  s.resources        = 'GZUIBase/Classes/image.xcassets'
   s.ios.deployment_target = '8.0'
 end

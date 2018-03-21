@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <GZUIBase/GZView.h>
 
 @interface ViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    GZView *view = [GZView new];
+    [self.view addSubview:view];
+    view.backgroundColor = [UIColor redColor];
+    view.frame = self.view.bounds;
 }
 
 

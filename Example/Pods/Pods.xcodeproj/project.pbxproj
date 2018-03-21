@@ -3,50 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E231FD020628CC000FC6A16 /* GZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E231FCF20628CC000FC6A16 /* GZView.m */; };
-		1E90F2A660EB81E5939F2FE4B9931E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		73FAB940657AB1A8D7037C399B5AF4C4 /* Pods-GZUIBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F41E249DEB31165393512898288959 /* Pods-GZUIBase-dummy.m */; };
+		0AE85C83FC8A4F94EB2B5A2BD8B9D65C /* GZView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8659EC9862E3BCAE21941DA298B6B380 /* GZView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6453F60E7FFB0C5F0AC6270C17AAAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		52A529E56B7767E1FED83CC23DF54064 /* GZUIBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9154345511502A30D949328DE01BDB2 /* GZUIBase-dummy.m */; };
+		6A2CC99E835ECDFA9B301A3D948F4690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		837A1DACF58104103785B69E4EB934CA /* GZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 412559C8DD48CF44F2780CAC213C26D4 /* GZView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED861A6983414E7DABE7EE58BF95E284 /* Pods-GZUIBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F41E249DEB31165393512898288959 /* Pods-GZUIBase-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		092A82F4F193D75FEFEE9CF8CE48B952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C60AAB49B282DBC8F8E47BC7F2BA7D;
+			remoteInfo = GZUIBase;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1025EC39D67C20D312AE73D3BF188241 /* GZUIBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZUIBase.xcconfig; sourceTree = "<group>"; };
 		1076CB02BAB6B17A2006378C11CA7561 /* Pods-GZUIBase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZUIBase-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E231FCE20628CC000FC6A16 /* GZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZView.h; path = GZUIBase/GZView.h; sourceTree = "<group>"; };
-		1E231FCF20628CC000FC6A16 /* GZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZView.m; path = GZUIBase/GZView.m; sourceTree = "<group>"; };
 		2C2701CD5D35500B27C790FBABF9ADE0 /* Pods-GZUIBase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZUIBase-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A8EF20DC9BCA9DF365422FB5BEFF2A4 /* Pods-GZUIBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZUIBase.release.xcconfig"; sourceTree = "<group>"; };
+		412559C8DD48CF44F2780CAC213C26D4 /* GZView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZView.m; path = GZUIBase/GZView.m; sourceTree = "<group>"; };
+		51923A50932F0DA8A2B650D48CD92138 /* libGZUIBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGZUIBase.a; path = libGZUIBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8659EC9862E3BCAE21941DA298B6B380 /* GZView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZView.h; path = GZUIBase/GZView.h; sourceTree = "<group>"; };
 		8B970456456A5C2F11B5F930371F2825 /* Pods-GZUIBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZUIBase.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0321F5ED70E2927E7E5DCB6CC784245 /* libPods-GZUIBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GZUIBase.a"; path = "libPods-GZUIBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02E4C082AEA50DC18249B4D7489440D /* Pods-GZUIBase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZUIBase-frameworks.sh"; sourceTree = "<group>"; };
+		B5A4F1239FC52C61490903EBAE8FA0F7 /* GZUIBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZUIBase-prefix.pch"; sourceTree = "<group>"; };
+		B9154345511502A30D949328DE01BDB2 /* GZUIBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZUIBase-dummy.m"; sourceTree = "<group>"; };
 		D6F41E249DEB31165393512898288959 /* Pods-GZUIBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZUIBase-dummy.m"; sourceTree = "<group>"; };
-		E36F6FE75F30A42EAF5A6B3D53547CE0 /* libPods-GZUIBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZUIBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBACC095A98193E49B118E431A4F189 /* Pods-GZUIBase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZUIBase-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8C674B9BC37A33FCF9AD662789469B7 /* Frameworks */ = {
+		26D57E70175006A106B13F1193CEDFC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E90F2A660EB81E5939F2FE4B9931E1A /* Foundation.framework in Frameworks */,
+				6A2CC99E835ECDFA9B301A3D948F4690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AFAC87D6528970AB032E323DD4AFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6453F60E7FFB0C5F0AC6270C17AAAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		045FEABF1FDF202457A4B40AD894BAAF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E36F6FE75F30A42EAF5A6B3D53547CE0 /* libPods-GZUIBase.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		11CA51097EA23AD45462BAF53744FF9B /* Pods-GZUIBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,25 +87,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		493FC891C2B25D499C7BD32824154EAC /* GZUIBase */ = {
+			isa = PBXGroup;
+			children = (
+				8659EC9862E3BCAE21941DA298B6B380 /* GZView.h */,
+				412559C8DD48CF44F2780CAC213C26D4 /* GZView.m */,
+				DDFC056EEE06F21DDBBCE11D6EE31B31 /* Support Files */,
+			);
+			name = GZUIBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC55A346B232A30C51B1D8A80B02213E /* Development Pods */,
+				B7DA88260E69735295A5DA66ED11CF62 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				045FEABF1FDF202457A4B40AD894BAAF /* Products */,
+				FCDBB7F47C3DB36F3EA6C709BDE59C30 /* Products */,
 				3938E17B050C68762397F58F6E0AC0BF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8452D29C5DE0144A9784A94D0112506C /* GZUIBase */ = {
+		B7DA88260E69735295A5DA66ED11CF62 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E231FCE20628CC000FC6A16 /* GZView.h */,
-				1E231FCF20628CC000FC6A16 /* GZView.m */,
+				493FC891C2B25D499C7BD32824154EAC /* GZUIBase */,
 			);
-			name = GZUIBase;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -99,14 +125,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC55A346B232A30C51B1D8A80B02213E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8452D29C5DE0144A9784A94D0112506C /* GZUIBase */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,23 +133,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DDFC056EEE06F21DDBBCE11D6EE31B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1025EC39D67C20D312AE73D3BF188241 /* GZUIBase.xcconfig */,
+				B9154345511502A30D949328DE01BDB2 /* GZUIBase-dummy.m */,
+				B5A4F1239FC52C61490903EBAE8FA0F7 /* GZUIBase-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GZUIBase";
+			sourceTree = "<group>";
+		};
+		FCDBB7F47C3DB36F3EA6C709BDE59C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51923A50932F0DA8A2B650D48CD92138 /* libGZUIBase.a */,
+				A0321F5ED70E2927E7E5DCB6CC784245 /* libPods-GZUIBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		21EF03DEDADD0E52824E83E6667DB8AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE85C83FC8A4F94EB2B5A2BD8B9D65C /* GZView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		D6680593FD430690A5A61C2BD586470A /* Pods-GZUIBase */ = {
+		5D79D9B80E6A1ECE5811FA327D9C8749 /* Pods-GZUIBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C70C799494EDCD2D1D2E8298F8013F2 /* Build configuration list for PBXNativeTarget "Pods-GZUIBase" */;
+			buildConfigurationList = 96871A7252251E0928E8AF48109A38F0 /* Build configuration list for PBXNativeTarget "Pods-GZUIBase" */;
 			buildPhases = (
-				374E59CF2B57F2E24059B86DBC4C5059 /* Sources */,
-				D8C674B9BC37A33FCF9AD662789469B7 /* Frameworks */,
+				EDE0576B3C234F4F1A16DCA2B939AFED /* Sources */,
+				43AFAC87D6528970AB032E323DD4AFD9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9631A1DC7562C017692F17688B76F /* PBXTargetDependency */,
+			);
+			name = "Pods-GZUIBase";
+			productName = "Pods-GZUIBase";
+			productReference = A0321F5ED70E2927E7E5DCB6CC784245 /* libPods-GZUIBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7C60AAB49B282DBC8F8E47BC7F2BA7D /* GZUIBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D748A24D2DE242C19CDF66C55CE40F /* Build configuration list for PBXNativeTarget "GZUIBase" */;
+			buildPhases = (
+				805AF6BDDF85FEC2E76FFBAA676F1359 /* Sources */,
+				26D57E70175006A106B13F1193CEDFC7 /* Frameworks */,
+				21EF03DEDADD0E52824E83E6667DB8AA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-GZUIBase";
-			productName = "Pods-GZUIBase";
-			productReference = E36F6FE75F30A42EAF5A6B3D53547CE0 /* libPods-GZUIBase.a */;
+			name = GZUIBase;
+			productName = GZUIBase;
+			productReference = 51923A50932F0DA8A2B650D48CD92138 /* libGZUIBase.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -151,29 +218,90 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 045FEABF1FDF202457A4B40AD894BAAF /* Products */;
+			productRefGroup = FCDBB7F47C3DB36F3EA6C709BDE59C30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6680593FD430690A5A61C2BD586470A /* Pods-GZUIBase */,
+				F7C60AAB49B282DBC8F8E47BC7F2BA7D /* GZUIBase */,
+				5D79D9B80E6A1ECE5811FA327D9C8749 /* Pods-GZUIBase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		374E59CF2B57F2E24059B86DBC4C5059 /* Sources */ = {
+		805AF6BDDF85FEC2E76FFBAA676F1359 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FAB940657AB1A8D7037C399B5AF4C4 /* Pods-GZUIBase-dummy.m in Sources */,
-				1E231FD020628CC000FC6A16 /* GZView.m in Sources */,
+				52A529E56B7767E1FED83CC23DF54064 /* GZUIBase-dummy.m in Sources */,
+				837A1DACF58104103785B69E4EB934CA /* GZView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE0576B3C234F4F1A16DCA2B939AFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED861A6983414E7DABE7EE58BF95E284 /* Pods-GZUIBase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4CB9631A1DC7562C017692F17688B76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GZUIBase;
+			target = F7C60AAB49B282DBC8F8E47BC7F2BA7D /* GZUIBase */;
+			targetProxy = 092A82F4F193D75FEFEE9CF8CE48B952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		9B006FCE46F039CBF7F711D2994A1FFA /* Release */ = {
+		7809B01B32C3F55E4735505F81065B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025EC39D67C20D312AE73D3BF188241 /* GZUIBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GZUIBase/GZUIBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB2751BC886EF2E04DC6FBE40CBE577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025EC39D67C20D312AE73D3BF188241 /* GZUIBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GZUIBase/GZUIBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		995004F7DB3C02BB3E5B7ED383C6E208 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A8EF20DC9BCA9DF365422FB5BEFF2A4 /* Pods-GZUIBase.release.xcconfig */;
 			buildSettings = {
@@ -249,7 +377,7 @@
 			};
 			name = Release;
 		};
-		B8E2FF574B20DD4CEE3D0EE65E7F81DC /* Debug */ = {
+		D66827C0193CB2A5CAF1EA0CEE1F783B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B970456456A5C2F11B5F930371F2825 /* Pods-GZUIBase.debug.xcconfig */;
 			buildSettings = {
@@ -332,20 +460,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C70C799494EDCD2D1D2E8298F8013F2 /* Build configuration list for PBXNativeTarget "Pods-GZUIBase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8E2FF574B20DD4CEE3D0EE65E7F81DC /* Debug */,
-				9B006FCE46F039CBF7F711D2994A1FFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
 				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96871A7252251E0928E8AF48109A38F0 /* Build configuration list for PBXNativeTarget "Pods-GZUIBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66827C0193CB2A5CAF1EA0CEE1F783B /* Debug */,
+				995004F7DB3C02BB3E5B7ED383C6E208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D748A24D2DE242C19CDF66C55CE40F /* Build configuration list for PBXNativeTarget "GZUIBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB2751BC886EF2E04DC6FBE40CBE577 /* Debug */,
+				7809B01B32C3F55E4735505F81065B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
