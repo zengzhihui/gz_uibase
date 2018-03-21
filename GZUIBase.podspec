@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'GZUIBase'
   s.version          = '0.0.1'
   s.summary          = 'UI基础库'
-  s.description      = 'UI基础库'
+  s.description      = '集成自己的UI基础库'
 
 
   s.homepage         = 'https://github.com/zengzhihui/gz_pod_specs'
